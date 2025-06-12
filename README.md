@@ -3,7 +3,7 @@
 Un'applicazione web multimodale che analizza immagini caricate dall'utente per estrarre dati e insight in automatico, e permette di "dialogare" con l'immagine per ottenere approfondimenti.
 
 ## 📸 Screenshot
-
+https://github.com/Dado20395/occhio-ai-analizzatore-immagini/blob/main/Immagine%202025-06-12%20175000.jpg
 
 
 ## 🚀 Funzionalità Principali
