@@ -4,6 +4,7 @@ Un'applicazione web multimodale che analizza immagini caricate dall'utente per e
 
 ## 📸 Screenshot
 https://github.com/Dado20395/occhio-ai-analizzatore-immagini/blob/main/Immagine%202025-06-12%20175000.jpg
+https://github.com/Dado20395/occhio-ai-analizzatore-immagini/blob/main/Immagine%202025-06-12%20175327.jpg
 
 
 ## 🚀 Funzionalità Principali
