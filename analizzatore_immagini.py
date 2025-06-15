@@ -2,7 +2,7 @@ import streamlit as st
 from PIL import Image
 import google.generativeai as genai
 from datetime import datetime
-import os # <-- CORREZIONE: RI-AGGIUNTA QUESTA RIGA FONDAMENTALE
+import os 
 
 # --- CONFIGURAZIONE PAGINA ---
 st.set_page_config(page_title="Occhio AI", page_icon="👁️")
