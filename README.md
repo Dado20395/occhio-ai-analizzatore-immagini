@@ -1,63 +1,30 @@
-# 👁️ Occhio AI - Analizzatore di Immagini
+# Analizzatore di Immagini Multimodale
 
-Un'applicazione web sperimentale costruita con Streamlit e l'API Vision di Google Gemini per l'analisi multimodale di immagini. L'app estrae dati e permette un'interazione conversazionale con i contenuti visivi.
-
----
-
-### **Stato del Progetto: 🚧 In Sviluppo Attivo 🚧**
-
-Questa applicazione è un progetto personale in continua evoluzione, creato per esplorare le capacità dei modelli multimodali. Le funzionalità attuali sono stabili, ma nuove idee e miglioramenti vengono aggiunti regolarmente.
+Applicazione web per l'analisi di immagini basata sull'API multimodale di Google Gemini. Il sistema è progettato per estrarre informazioni strutturate da dati visivi non strutturati e per consentire un'interrogazione di approfondimento in linguaggio naturale.
 
 ---
 
-### **Funzionalità Attuali**
+### Architettura e Funzionalità
 
--   **Analisi Automatica:** Al caricamento, estrae una descrizione, gli oggetti principali e il testo (OCR) dall'immagine.
--   **Interazione Conversazionale:** Permette di porre domande specifiche di approfondimento sull'immagine caricata.
--   **Archivio Persistente:** Salva automaticamente ogni analisi su un file di testo locale per future consultazioni.
+Il software implementa un'interfaccia utente proattiva che esegue un'analisi preliminare automatica al caricamento dell'immagine. I risultati vengono resi persistenti su file di log per consultazioni future.
 
----
-
-### **Stack Tecnologico**
-
-**Python | Streamlit | Google Gemini API | Pillow**
-
----
-
-#Certamente. Capisco perfettamente la richiesta. Vuoi un README che sia professionale ma che allo stesso tempo comunichi che si tratta di un progetto "vivo", un'esplorazione in corso, piuttosto che un prodotto finito e immutabile. È un approccio molto onesto e apprezzato nel mondo dello sviluppo.
-
-Ecco una versione più coincisa e dinamica del tuo README, riscritta con questo obiettivo in mente.
-
-Template README: Versione "Work in Progress"
-Questo testo è più diretto, riduce i dettagli e aggiunge una sezione sullo stato attuale del progetto per gestire le aspettative.
-
-Azione: Modifica il file README.md del repository occhio-ai-analizzatore-immagini e sostituisci tutto il testo con questo:
-
-Markdown
-
-# 👁️ Occhio AI - Analizzatore di Immagini
-
-Un'applicazione web sperimentale costruita con Streamlit e l'API Vision di Google Gemini per l'analisi multimodale di immagini. L'app estrae dati e permette un'interazione conversazionale con i contenuti visivi.
+-   **Analisi Proattiva dei Dati Visivi:** All'input di un'immagine, il sistema esegue l'estrazione automatica di metadati testuali, includendo:
+    -   Una descrizione sintetica del contenuto visivo.
+    -   Una classificazione degli oggetti principali rilevati.
+    -   Il riconoscimento ottico dei caratteri (OCR) per qualsiasi testo presente.
+-   **Interfaccia Conversazionale di Follow-up:** Dopo l'analisi iniziale, l'utente può interrogare il sistema con domande specifiche per ottenere ulteriori dettagli o elaborazioni basate sul contesto dell'immagine.
+-   **Persistenza dei Dati:** Ogni analisi generata viene salvata con un timestamp in un file di archivio locale (`.txt`), garantendo la tracciabilità e la consultazione storica dei risultati.
 
 ---
 
-### **Stato del Progetto: 🚧 In Sviluppo Attivo 🚧**
+### Stack Tecnologico
 
-Questa applicazione è un progetto personale in continua evoluzione, creato per esplorare le capacità dei modelli multimodali. Le funzionalità attuali sono stabili, ma nuove idee e miglioramenti vengono aggiunti regolarmente.
-
----
-
-### **Funzionalità Attuali**
-
--   **Analisi Automatica:** Al caricamento, estrae una descrizione, gli oggetti principali e il testo (OCR) dall'immagine.
--   **Interazione Conversazionale:** Permette di porre domande specifiche di approfondimento sull'immagine caricata.
--   **Archivio Persistente:** Salva automaticamente ogni analisi su un file di testo locale per future consultazioni.
+-   **Linguaggio:** Python
+-   **Framework:** Streamlit
+-   **API & Modelli:** Google Gemini (API Vision)
+-   **Librerie Core:** `Pillow`, `google-generativeai`, `streamlit`
 
 ---
-
-### **Stack Tecnologico**
-
-**Python | Streamlit | Google Gemini API | Pillow**
 
 ---
 
